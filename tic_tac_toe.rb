@@ -5,11 +5,11 @@
 
 #METHODS BEGIN#
 def initialize_board
-	p = {}
-	(1..9).each {|position| p[position] = ' '}
-	p
+  p = {}
+  (1..9).each {|position| p[position] = ' '}
+  p
 end
-
+1
 def draw_board(p)
 system 'clear'
 puts "Welcome to Tic Tac Toe Game"
