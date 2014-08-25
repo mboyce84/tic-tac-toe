@@ -9,7 +9,7 @@ def initialize_board
 	(1..9).each {|position| p[position] = ' '}
 	p
 end
-k
+
 def draw_board(p)
 system 'clear'
 puts "Welcome to Tic Tac Toe Game"
