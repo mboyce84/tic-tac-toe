@@ -72,7 +72,7 @@ end
 
 #MAIN APPLICATION BEGINS#
 loop do
-
+k
 board = initialize_board
 draw_board(board)
 
