@@ -20,7 +20,7 @@ def computer_places_piece(board)
   position = empty_positions(board).sample
   board[position] = 'O'
 end
-1
+
 def check_winner(board)
   winning_lines = [[1,2,3], [4,5,6], [7,8,9], [1,4,7], [2,5,8], [3,6,9], [1,5,9], [3,5,7]]
   winning_lines.each do |line|
