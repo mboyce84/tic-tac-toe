@@ -2,7 +2,6 @@
 #AUTHOR: MjB
 #DESCRIPTION: Game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three respective marks in a horizontal, vertical, or diagonal row wins the game.
 
-
 #METHODS BEGIN#
 def initialize_board
   p = {}
@@ -11,7 +10,7 @@ def initialize_board
 end
 
 def draw_board(p)
-  system 'clear'
+  system('cls')
   puts "Welcome to Tic Tac Toe Game"
   puts "\n"
   puts "  #{p[1]} | #{p[2]} | #{p[3]} "
