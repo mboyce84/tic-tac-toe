@@ -9,11 +9,11 @@ def initialize_board
   (1..9).each {|position| p[position] = ' '}
   p
 end
-12
+123
 def draw_board(p)
-	system 'clear'
-	puts "Welcome to Tic Tac Toe Game"
-	puts "\n"
+  system 'clear'
+  puts "Welcome to Tic Tac Toe Game"
+  puts "\n"
 puts "  #{p[1]} | #{p[2]} | #{p[3]} "
 puts " -----------"
 puts "  #{p[4]} | #{p[5]} | #{p[6]} "
@@ -76,7 +76,7 @@ loop do
 board = initialize_board
 draw_board(board)
 
-begin	
+begin 
 player_picks_square(board)
 computer_picks_square(board)
 draw_board(board)
