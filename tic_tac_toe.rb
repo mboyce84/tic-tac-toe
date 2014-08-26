@@ -11,7 +11,7 @@ end
 
 def draw_board(p)
   system('cls')
-  puts "Welcome to Tic Tac Toe Game"
+  puts "Welcome to MjB's Tic Tac Toe Game"
   puts "\n"
   puts "  #{p[1]} | #{p[2]} | #{p[3]} "
   puts " -----------"
